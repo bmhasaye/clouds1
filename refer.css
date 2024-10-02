@@ -1,0 +1,105 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #00f, #ff00ff);
+}
+
+.container {
+    width: 250px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+/* Menu icon */
+.menu-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+}
+
+/* Stars Section */
+.stars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.stars .star {
+    color: gold;
+    font-size: 20px;
+    margin: 0 3px;
+}
+
+/* Image Container */
+.image-container {
+    margin: 10px 0;
+}
+
+.avatar-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* Refer & Earn Text */
+h1 {
+    font-size: 20px;
+    color: #000;
+    margin: 10px 0;
+}
+
+h1 span {
+    font-size: 20px;
+}
+
+/* Button */
+.link-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.link-btn:hover {
+    background-color: #007bff;
+}
+
+/* Special Offers */
+.offers {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.offers h2 {
+    font-size: 16px;
+    color: #000;
+    font-family: 'Cursive', sans-serif;
+    margin-bottom: 0;
+}

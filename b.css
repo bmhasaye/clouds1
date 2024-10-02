@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('cloud\ pic.jpg') no-repeat center center fixed;
+    background-size: cover;
+.logo{
+    display: flex;
+    display: contents;
+}
+.sub{
+   
+ height: 150px;
+ width: 100px;
+ display: flex;
+margin-right: 450px;
+
+ 
+   
+
+}
+.sub2{
+
+ height: 150px;
+ width: 100px;
+ display: flex;
+ flex-direction:row;
+ margin-right: 450px;
+ margin-top: 10px;
+ 
+}
+  
